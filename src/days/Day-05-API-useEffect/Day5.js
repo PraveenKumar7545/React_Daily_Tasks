@@ -1,33 +1,42 @@
-import MovieExplorer from "./MovieExplorer";
 import UserList from "./UserList";
+import MovieExplorer from "./MovieExplorer";
 
 function Day5() {
   return (
     <main className="min-h-screen bg-gray-100 py-12 px-6">
       <div className="max-w-6xl mx-auto">
 
-        {/* Day 5 Header */}
-        <div className="text-center mb-10">
+        {/* Day Heading */}
+        <div className="text-center mb-12">
           <p className="text-sm font-semibold tracking-widest text-gray-500">
             DAY 05
           </p>
 
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
-            API & useEffect
+             API & useEffect
           </h1>
 
           <p className="text-gray-600 mt-3">
-            Fetching data from an API and displaying it in React.
+            Learning how to fetch API data and display it in React.
           </p>
         </div>
 
-        {/* API Users */}
-        <UserList />
+        {/* Task 1 */}
+        <section>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            Task 1 - JSONPlaceholder Users API
+          </h2>
 
-        <MovieExplorer />
+          <UserList />
+        </section>
 
-        {/* Day 5 Footer */}
-        <div className="text-center mt-10">
+        {/* Task 2 */}
+        <section className="mt-16">
+          <MovieExplorer />
+        </section>
+
+        {/* Bottom Text */}
+        <div className="text-center mt-12">
           <p className="text-gray-500 text-sm">
             Day 5 - API & useEffect
           </p>
