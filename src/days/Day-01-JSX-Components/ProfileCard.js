@@ -1,13 +1,14 @@
+
 function ProfileCard() {
   return (
     <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8 text-center">
 
       {/* Profile Image */}
-     <img
-  src="/img/profile.jpeg"
-  alt="Praveen Kumar"
-  className="w-28 h-28 rounded-full object-cover object-top mx-auto mt-8 mb-6 border-4 border-gray-200"
-/>
+      <img
+        src={`${process.env.PUBLIC_URL}/img/profile.jpeg`}
+        alt="Praveen Kumar"
+        className="w-28 h-28 rounded-full object-cover object-top mx-auto mt-8 mb-6 border-4 border-gray-200"
+      />
 
       {/* Name */}
       <h1 className="text-3xl font-bold text-gray-900">
@@ -27,7 +28,6 @@ function ProfileCard() {
 
       {/* Skills */}
       <div className="flex flex-wrap justify-center gap-2 mt-6">
-
         <span className="bg-gray-100 px-4 py-2 rounded-full text-sm">
           Java
         </span>
@@ -43,7 +43,6 @@ function ProfileCard() {
         <span className="bg-gray-100 px-4 py-2 rounded-full text-sm">
           Git
         </span>
-
       </div>
 
       {/* GitHub Button */}
@@ -61,3 +60,4 @@ function ProfileCard() {
 }
 
 export default ProfileCard;
+
