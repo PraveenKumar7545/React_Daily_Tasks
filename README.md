@@ -2,6 +2,10 @@
 
 A 7-day React learning journey where I practice React concepts by building small practical tasks and projects.
 
+## 🌐 Live Demo
+
+https://praveenkumar7545.github.io/React_Daily_Tasks/
+
 ## 📚 7-Day Learning Plan
 
 ### Day 01 - JSX & Components
