@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -15,7 +16,7 @@ import Day7 from "./days/Day-07-Mini-Project/Day7";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
 
       <Routes>
@@ -27,11 +28,10 @@ function App() {
         <Route path="/day5" element={<Day5 />} />
         <Route path="/day6/*" element={<Day6 />} />
         <Route path="/day7" element={<Day7 />} />
-
       </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
