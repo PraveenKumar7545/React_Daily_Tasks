@@ -12,7 +12,7 @@ A simple task management application built using React.
 - Delete tasks
 - Filter all, active, and completed tasks
 - Display task statistics
-- Save tasks automatically in localStorage
+- Save tasks automatically in localStorage 
 - Keep tasks after refreshing the page
 
 ## Topics Covered
