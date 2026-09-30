@@ -8,7 +8,7 @@ https://praveenkumar7545.github.io/React_Daily_Tasks/
 
 ## 📚 7-Day Learning Plan
 
-### Day 01 - JSX & Components
+### Day 01 - JSX & Components 
 - JSX
 - Functional Components
 - Component Reusability
